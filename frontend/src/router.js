@@ -14,6 +14,11 @@ const routes = [
     component: () => import('@/pages/MobileNotification.vue'),
   },
   {
+    path: '/suits',
+    name: 'Suits',
+    component: () => import('@/pages/SuitsList.vue'),
+  },
+  {
     path: '/dashboard',
     name: 'Dashboard',
     component: () => import('@/pages/Dashboard.vue'),
