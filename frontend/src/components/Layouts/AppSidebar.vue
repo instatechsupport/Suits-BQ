@@ -81,7 +81,6 @@
 
 
 <style scoped>
-
 /* Import Amiri font from Google */
 @import url('https://fonts.googleapis.com/earlyaccess/amiri.css');
 
@@ -113,10 +112,7 @@ html, body, #case-app, icon-wrap, profile{
 }
 .sidebar.expanded { width: 200px; }
 .sidebar.collapsed { width: 80px; }
-.sidebar,
-.profile {
-  background: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1)) !important;
-}
+
 /* ===== PROFILE ===== */
 .profile {
   padding: 8px;
